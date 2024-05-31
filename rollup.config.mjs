@@ -10,7 +10,7 @@ import terser from '@rollup/plugin-terser';
 const dirname = url.fileURLToPath(new URL('.', import.meta.url));
 const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
 
-const debug = false;
+const debug = true;
 
 const banner = `
 /**
